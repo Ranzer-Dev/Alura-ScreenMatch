@@ -1,4 +1,4 @@
-package exercicios;
+package br.com.alura.screenmatch.exercicios;
 
 public class VerificadorPrimo extends NumerosPrimos {
     public void verificarSeEhPrimo(int numero) {

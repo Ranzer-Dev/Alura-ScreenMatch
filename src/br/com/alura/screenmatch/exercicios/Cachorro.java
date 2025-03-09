@@ -1,4 +1,4 @@
-package exercicios;
+package br.com.alura.screenmatch.exercicios;
 
 public class Cachorro extends Animal{
     @Override

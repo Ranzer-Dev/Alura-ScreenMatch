@@ -1,4 +1,4 @@
-package exercicios;
+package br.com.alura.screenmatch.exercicios;
 
 import java.util.Scanner;
 

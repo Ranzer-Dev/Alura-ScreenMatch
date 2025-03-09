@@ -1,4 +1,7 @@
-package exercicios;
+import br.com.alura.screenmatch.exercicios.Produto;
+import br.com.alura.screenmatch.exercicios.ProdutoPerecivel;
+
+import java.util.ArrayList;
 
 public class Exercicios {
     public static void main(String[] args) {
@@ -70,5 +73,24 @@ public class Exercicios {
         ProdutoFisico produto = new ProdutoFisico();
         produto.precoFinal(500);*/
 
+        /*Produto velaArtesenal = new Produto("vela artesenal",25.0,13);
+        Produto bottom = new Produto("Bottom", 8.0, 20);
+        Produto caderno = new Produto("caderno", 70.0, 200);
+
+        ArrayList<Produto> produtos = new ArrayList<>();
+        produtos.add(velaArtesenal);
+        produtos.add(bottom);
+        produtos.add(caderno);
+
+        System.out.println("O tamanho da lista é: " + produtos.size());
+        System.out.println("O item 2 da lista é: " + produtos.get(1).getNome());
+        System.out.println(produtos.toString());
+
+        for (int i = 0; i < produtos.size(); i++){
+            System.out.println(produtos.get(i).getNome());
+        }*/
+
+        ProdutoPerecivel vela = new ProdutoPerecivel("vela", 25.0,5, "14-12-1995");
+        System.out.println(vela);
     }
 }
